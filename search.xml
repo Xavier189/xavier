@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Linux</title>
+      <link href="/xavier/posts/53d0684b/"/>
+      <url>/xavier/posts/53d0684b/</url>
+      
+        <content type="html"><![CDATA[<h1 id="less-查看文件"><a href="#less-查看文件" class="headerlink" title="less 查看文件"></a>less 查看文件</h1><p>用于浏览文件，支持翻页和搜索，大文件时效率高</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">less [参数][文件]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 参数</span></span><br><span class="line"><span class="comment"># -i 搜索时忽略大小写</span></span><br><span class="line"><span class="comment"># -o &lt;文件名&gt; 将less输出的内容在指定的文件中保存起来</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 打开后生效参数</span></span><br><span class="line"><span class="comment"># /字符串: 向下搜索&quot;字符串&quot;的功能</span></span><br><span class="line"><span class="comment"># ?字符串: 向上搜索&quot;字符串&quot;的功能</span></span><br><span class="line"><span class="comment"># b: 向后翻一页</span></span><br><span class="line"><span class="comment"># d: 向后翻半页</span></span><br><span class="line"><span class="comment"># u: 向前滚动半页</span></span><br><span class="line"><span class="comment"># y: 向前滚动一行</span></span><br><span class="line"><span class="comment"># q: 退出</span></span><br></pre></td></tr></table></figure><h1 id="cat-查看文件"><a href="#cat-查看文件" class="headerlink" title="cat 查看文件"></a>cat 查看文件</h1><h2 id="1-打印行号"><a href="#1-打印行号" class="headerlink" title="1. 打印行号"></a>1. 打印行号</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> -n /path/file.txt</span><br></pre></td></tr></table></figure><h2 id="2-合并文件"><a href="#2-合并文件" class="headerlink" title="2. 合并文件"></a>2. 合并文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 合并文件-&gt;在控制台上打印出来</span></span><br><span class="line"><span class="built_in">cat</span> 1.<span class="built_in">log</span> 2.<span class="built_in">log</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 将多个文件合并到一个文件内</span></span><br><span class="line"><span class="built_in">cat</span> *.<span class="built_in">log</span> &gt; new.log</span><br><span class="line"></span><br><span class="line"><span class="comment"># 追加内容到文件内（new.log不存在会创建）</span></span><br><span class="line"><span class="built_in">cat</span> 1.<span class="built_in">log</span> 2.<span class="built_in">log</span> &gt;&gt; new.log</span><br></pre></td></tr></table></figure><h1 id="rm-删除文件-夹"><a href="#rm-删除文件-夹" class="headerlink" title="rm 删除文件&#x2F;夹"></a>rm 删除文件&#x2F;夹</h1><h2 id="1-删除文件"><a href="#1-删除文件" class="headerlink" title="1. 删除文件"></a>1. 删除文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 删除文件</span></span><br><span class="line"><span class="built_in">rm</span> file.txt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除前一一确认</span></span><br><span class="line"><span class="built_in">rm</span> -r /path/file.txt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 直接递归删除</span></span><br><span class="line"><span class="built_in">rm</span> -f /path/file.txt</span><br></pre></td></tr></table></figure><h2 id="2-删除文件夹"><a href="#2-删除文件夹" class="headerlink" title="2. 删除文件夹"></a>2. 删除文件夹</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 删除文件夹及文件夹下所有的文件</span></span><br><span class="line"><span class="built_in">rm</span> -rf /path/</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> study </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> daily </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/xavier/posts/4a17b156/"/>
+      <url>/xavier/posts/4a17b156/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> first </tag>
+            
+            <tag> second </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
