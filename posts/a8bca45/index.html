@@ -31,14 +31,12 @@
 <meta property="og:site_name" content="Xavier">
 <meta property="og:description" content="Mac下新版idea经常出现内存飙升以及CPU占用庞大的情况，有甚者，我的Mac经常性因为CPU占用过高，造成发热异常。本文根据自己的经验排查了一些问题，经过测试，现idea占用内存和CPU基本趋于正常水平">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://gitee.com/Xavish/typora-images/raw/master/images/image-20240117152936475.png">
 <meta property="article:published_time" content="2024-01-16T14:30:26.000Z">
-<meta property="article:modified_time" content="2024-01-17T08:06:13.184Z">
+<meta property="article:modified_time" content="2024-01-23T14:12:11.211Z">
 <meta property="article:author" content="Xavier">
 <meta property="article:tag" content="idea内存异常">
 <meta property="article:tag" content="Mac">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://gitee.com/Xavish/typora-images/raw/master/images/image-20240117152936475.png">
 
 
 <link rel="canonical" href="https://xavier189.github.io/xavier/posts/a8bca45/">
@@ -167,7 +165,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/xavier/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -178,7 +176,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/xavier/tags/">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -253,7 +251,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-01-17 16:06:13" itemprop="dateModified" datetime="2024-01-17T16:06:13+08:00">2024-01-17</time>
+      <time title="修改时间：2024-01-23 22:12:11" itemprop="dateModified" datetime="2024-01-23T22:12:11+08:00">2024-01-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -307,7 +305,6 @@
 </blockquote>
 <h1 id="排查操作"><a href="#排查操作" class="headerlink" title="排查操作"></a>排查操作</h1><h2 id="操作1"><a href="#操作1" class="headerlink" title="操作1"></a>操作1</h2><p>首先怀疑的就是idea分配的内存不足，但是2个G的分配，正常情况下肯定是够用的了，所以这里不是这个问题</p>
 <h2 id="操作2"><a href="#操作2" class="headerlink" title="操作2"></a>操作2</h2><p>网上很多的教程或者博客之类的都是说因为插件问题，idea中类似于ali的代码扫描等插件会造成CPU或者内存一直持续高涨，但是经过验证，这种类型的插件卸载后，并没有能缓解这种情况。（主要是无法定位可能是哪个插件引起的。毕竟我不能把idea中所有的插件都给卸载吧😂）</p>
-<p><img data-src="https://gitee.com/Xavish/typora-images/raw/master/images/image-20240117152936475.png"></p>
 
     </div>
 
@@ -339,6 +336,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/xavier/posts/18b37fcd/" rel="next" title="hexo搭建">
+                  hexo搭建 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>

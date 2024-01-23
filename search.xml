@@ -4,11 +4,88 @@
   
     
     <entry>
+      <title>hexo-daily</title>
+      <link href="/xavier/posts/c68814af/"/>
+      <url>/xavier/posts/c68814af/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo使用</title>
+      <link href="/xavier/posts/741b372c/"/>
+      <url>/xavier/posts/741b372c/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo搭建</title>
+      <link href="/xavier/posts/18b37fcd/"/>
+      <url>/xavier/posts/18b37fcd/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> hexo搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>idea</title>
       <link href="/xavier/posts/a8bca45/"/>
       <url>/xavier/posts/a8bca45/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>Mac下新版idea经常出现内存飙升以及CPU占用庞大的情况，有甚者，我的Mac经常性因为CPU占用过高，造成发热异常。本文根据自己的经验排查了一些问题，经过测试，现idea占用内存和CPU基本趋于正常水平</p></blockquote><span id="more"></span><h1 id="异常现象"><a href="#异常现象" class="headerlink" title="异常现象"></a>异常现象</h1><blockquote><p>最近没有图片，后期重现以后再补上，大致说一下，就是通过资源管理台查看发现idea后台占用内存超过4-5G，且CPU占用率一直处在200%上下</p></blockquote><h1 id="排查操作"><a href="#排查操作" class="headerlink" title="排查操作"></a>排查操作</h1><h2 id="操作1"><a href="#操作1" class="headerlink" title="操作1"></a>操作1</h2><p>首先怀疑的就是idea分配的内存不足，但是2个G的分配，正常情况下肯定是够用的了，所以这里不是这个问题</p><h2 id="操作2"><a href="#操作2" class="headerlink" title="操作2"></a>操作2</h2><p>网上很多的教程或者博客之类的都是说因为插件问题，idea中类似于ali的代码扫描等插件会造成CPU或者内存一直持续高涨，但是经过验证，这种类型的插件卸载后，并没有能缓解这种情况。（主要是无法定位可能是哪个插件引起的。毕竟我不能把idea中所有的插件都给卸载吧😂）</p><p><img data-src="https://gitee.com/Xavish/typora-images/raw/master/images/image-20240117152936475.png"></p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>Mac下新版idea经常出现内存飙升以及CPU占用庞大的情况，有甚者，我的Mac经常性因为CPU占用过高，造成发热异常。本文根据自己的经验排查了一些问题，经过测试，现idea占用内存和CPU基本趋于正常水平</p></blockquote><span id="more"></span><h1 id="异常现象"><a href="#异常现象" class="headerlink" title="异常现象"></a>异常现象</h1><blockquote><p>最近没有图片，后期重现以后再补上，大致说一下，就是通过资源管理台查看发现idea后台占用内存超过4-5G，且CPU占用率一直处在200%上下</p></blockquote><h1 id="排查操作"><a href="#排查操作" class="headerlink" title="排查操作"></a>排查操作</h1><h2 id="操作1"><a href="#操作1" class="headerlink" title="操作1"></a>操作1</h2><p>首先怀疑的就是idea分配的内存不足，但是2个G的分配，正常情况下肯定是够用的了，所以这里不是这个问题</p><h2 id="操作2"><a href="#操作2" class="headerlink" title="操作2"></a>操作2</h2><p>网上很多的教程或者博客之类的都是说因为插件问题，idea中类似于ali的代码扫描等插件会造成CPU或者内存一直持续高涨，但是经过验证，这种类型的插件卸载后，并没有能缓解这种情况。（主要是无法定位可能是哪个插件引起的。毕竟我不能把idea中所有的插件都给卸载吧😂）</p>]]></content>
       
       
       <categories>
